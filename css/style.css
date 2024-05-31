@@ -4,7 +4,8 @@ div{
 
 .home,
 #about-me,
-#projects{
+#projects,
+#contacts{
     margin-top: 50px;
 }
 
