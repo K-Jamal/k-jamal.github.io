@@ -2,10 +2,52 @@
     border: 1px solid black;
 } */
 
-.home,
-#about-me,
-#projects,
-#contacts{
-    margin-top: 50px;
+/* .project-img:hover{
+    background-color: orange;
 }
 
+.project-info{
+    visibility: hidden;
+}
+.project-card:hover{
+    opacity: 0.9;
+        .project-info{
+                visibility: visible;
+        }
+} */
+
+.project-card {
+  position: relative;
+  
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* semi-transparent overlay */
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-img-container:hover .overlay {
+  opacity: 1;
+}
+.card-img-container:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    
+}
