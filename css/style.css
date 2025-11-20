@@ -16,8 +16,13 @@
         }
 } */
 
+/* body{
+    background:linear-gradient(rgb(248, 154, 154), rgb(96, 96, 248));
+} */
+
 .project-card {
   position: relative;
+  margin-bottom: 10px;
   
 }
 
