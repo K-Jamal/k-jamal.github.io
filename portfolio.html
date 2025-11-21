@@ -49,20 +49,20 @@
 
     </header>
     <main class="main">
-        <div class="banner">
+        <div class="home">
             <div class="container-fluid my-5">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="p-5 m-5">
-                            <div class="h2 fst-italic">KRISHNA Jamal </div>
-                            <div>I am
+                            <div class="h2 fst-italic text-center">Krishna Jamal </div>
+                            <div class="text-center">I am
                                 <span>a Software Developer</span> <!-- *Planning to do a typewriter effect  -->
                             </div>
-                            <div>Pasionate, Hardworking, Dedicated and Disciplined
+                            <div class="text-center">Pasionate, Hardworking, Dedicated and Disciplined
                                 <!--  *planning to do a hover effect making them stand out more  -->
                                 are words hat describe me the best
                             </div>
-                            <div class="home-links mt-3">
+                            <div class="home-links mt-3 text-center">
                                 <a class="icon-link icon-link-hover" href="#projects">
                                     My Work
                                     <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="col-md-4">
 
-                        <div class="img-container "> <img src="/img/avatar.png" alt="" class="img-fluid rounded">
+                        <div class="img-container "> <img src="/img/krish.jpeg" alt="" class="img-fluid rounded-5">
                         </div>
 
                         <div class="reach-out mt-3 shadow p-3 mb-5 bg-body-primary rounded border">
@@ -107,7 +107,10 @@
 
                     <div class="col-md-8">
                         <h2>About me</h2>
-                        <h3>Always trying to impove upon my coding skills</h3>
+                        <blockquote class="blockquote">
+                            <p>"Always trying to impove upon my coding skills"</p>
+                        </blockquote>
+
                         <div class="about-text fst-italic fw-light fs-6">
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam amet accusamus animi,
@@ -124,18 +127,18 @@
 
                         <div class="info">
 
-                            <div class="info-row">
-                                <div class="specialisation">
+                            <!-- <div class="info-row d-flex">
+                                <div class="specialisation p-2">
                                     <span class="info-label">Specialisation</span>
                                     <span class="info-value">Web Developer</span>
                                 </div>
-                                <div class="experience">
-                                    <span class="info-label">experience Level:</span>
+                                <div class="experience p-2">
+                                    <span class="info-label">Experience Level:</span>
                                     <span class="info-value">Student</span>
                                 </div>
                             </div>
 
-                            <div class="info-row">
+                            <div class="info-row d-flex">
                                 <div class="study">
                                     <span class="info-label">Education:</span>
                                     <span class="info-value">Software Developer</span>
@@ -144,10 +147,40 @@
                                     <span class="info-label">Languages:</span>
                                     <span class="info-value">English, Dutch</span>
                                 </div>
+                            </div> -->
+                            <div class="table-responsive text-center mx-5">
+                                <table class="table table">
+                                    <thead class="fw-light">
+                                        <tr>
+                                            <th scope="col" >Specialisation</th>
+                                            <th scope="col">Experience Level</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="fw-light fst-italic">
+                                            <td scope="row">Web Developer</td>
+                                            <td>Student</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-
+                            <div class="table-responsive text-center me-5">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Education</th>
+                                            <th scope="col">Languages</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="fw-light fst-italic">
+                                            <td scope="row">Software Developer</td>
+                                            <td>English, Dutch</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -238,18 +271,18 @@
                         <div class="col-md-12 text-center">
                             <h2>Projects</h2>
                             <p class="fw-light">Projects that I contributed to and made myself</p>
+                            <!-- <hr class="border border-danger border-2 opacity-80 mx-5"> -->
                             <span>
                             </span>
                         </div>
                     </div>
-
                     <div class="row bg-body-tertiary rounded">
                         <div class="col-md-2">
                             <div>
                                 <li><button class="btn btn-dark" da>All Projects</button></li>
                                 <li><button class="btn btn-dark">Game</button></li>
                                 <li><button class="btn btn-dark">Dashboard</button></li>
-                                <li><button  class="btn btn-dark">Webshop</button></li>
+                                <li><button class="btn btn-dark">Webshop</button></li>
                             </div>
                         </div>
                         <div class="col-md-8 bg-body-secondary rounded">
@@ -393,7 +426,7 @@
 
 
 
-<script src="/js/main.js"></script>
+    <script src="/js/main.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

@@ -20,6 +20,12 @@
     background:linear-gradient(rgb(248, 154, 154), rgb(96, 96, 248));
 } */
 
+/* .home{
+    background-image: url("/img/bgi.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 .project-card {
   position: relative;
   margin-bottom: 10px;
