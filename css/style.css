@@ -29,7 +29,7 @@
 .project-card {
   position: relative;
   margin-bottom: 10px;
-  
+
 }
 
 .card-img-container {
@@ -47,18 +47,22 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7); /* semi-transparent overlay */
+  background: rgba(0, 0, 0, 0.7);
+  /* semi-transparent overlay */
   color: #fff;
   padding: 10px;
   opacity: 0;
   transition: opacity 0.3s ease;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
 }
 
 .card-img-container:hover .overlay {
   opacity: 1;
 }
-.card-img-container:hover{
-    opacity: 0.8;
-    transition: 0.5s;
-    
+
+.card-img-container:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+
 }
