@@ -76,3 +76,15 @@
   transition: 0.5s;
 
 }
+
+/* .skills-text{
+  display: none;
+}
+
+.hover-box:hover{
+  .skills-text{
+    background-color: yellow;
+    display: block;
+    transition: 0.3s;
+  }
+} */
