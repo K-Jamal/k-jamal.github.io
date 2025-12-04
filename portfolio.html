@@ -48,6 +48,17 @@
                 <button class="btn btn-primary mode-switch">Dark Mode</button>
             </div>
         </nav>
+        <div class="alert alert-primary alert-dismissible fade show text-center" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <strong>W.I.P</strong> This portfolio website is still a work in progress
+        </div>
+
+        <script>
+            var alertList = document.querySelectorAll(".alert");
+            alertList.forEach(function (alert) {
+                new bootstrap.Alert(alert);
+            });
+        </script>
 
     </header>
     <main class="main">
@@ -84,7 +95,7 @@
                                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                     </svg>
                                 </a>
-                                <a name="" id="" class="btn btn-dark  mx-3" href="#contact" role="button">Contact Me</a>
+                                <a name="" id="" class="btn btn-dark  mx-3" href="#contact-me" role="button">Contact Me</a>
                             </div>
 
                         </div>
@@ -290,7 +301,7 @@
             </div>
 
             <div class="skills" id="skills">
-                <div class="container-md">
+                <div class="container-md mt-3">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="h2 text-center">
@@ -551,7 +562,7 @@
 
 
 
-    <div class="contact-me">
+    <div class="contact-me" id="contact-me">
         <div class="container-lg">
             <h2 class="text-center">Contact Me</h2>
             <p class="fw-light text-center">Feel free to reach out with any questions or collaboration ideas.</p>
@@ -561,7 +572,7 @@
 
                 <div class="col-md-10">
 
-                    <form class="">
+                    <form class="needs-validation">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="First name"
@@ -581,7 +592,7 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
 
-                        <div class="text-center"> 
+                        <div class="text-center">
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
 
