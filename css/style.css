@@ -25,6 +25,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
+html {
+  scroll-behavior: smooth;
+}
 
 .effect-container:hover {
   .hover-effect {
