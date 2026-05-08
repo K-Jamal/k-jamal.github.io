@@ -40,8 +40,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#Higher-Lower">Higher-Lower</a>
-                            <a class="dropdown-item" href="#Web-catalog">Web-catalog</a>
+                            <a class="dropdown-item" href="#higherlower">Higher-Lower</a>
+                            <a class="dropdown-item" href="#webcatalog">Web-catalog</a>
                         </div>
                     </li>
                 </ul>
@@ -360,7 +360,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <!-- *Higher Lower Project Card -->
-                                    <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
+                                    <div class="card project-card shadow-sm icon-link-hover" id="higherlower" data-bs-toggle="modal"
                                         data-bs-target="#higherLowerModal">
                                         <img src="/img/hl-lgo.jpg" class="card-img-top rounded"
                                             alt="Higher Lower Project">
@@ -390,7 +390,7 @@
                                     </div>
 
                                     <!-- *Review you experience -->
-                                    <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
+                                    <div class="card project-card shadow-sm icon-link-hover" id="reviewyourexperience" data-bs-toggle="modal"
                                         data-bs-target="#reviewyourexperienceModal">
                                         <img src="/img/rye-logo.jpg" class="card-img-top rounded"
                                             alt="review your experience Project">
@@ -420,7 +420,7 @@
                                     </div>
 
                                     <!-- *Luluhairz -->
-                                    <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
+                                    <div class="card project-card shadow-sm icon-link-hover" id="luluhairz" data-bs-toggle="modal"
                                         data-bs-target="#luluhairzModal">
                                         <img src="/img/lulu-logo.jpg" class="card-img-top rounded"
                                             alt="Lulu Hairz Project">
@@ -517,7 +517,6 @@
                                                 </div>
 
                                                 <!-- README Content -->
-                                                <!-- README Content -->
                                                 <div class="p-4">
 
                                                     <section class="mb-4">
@@ -528,7 +527,7 @@
                                                             Both sides roll two dice, and the player must predict
                                                             whether their total will be higher or lower.
                                                             Correct guesses reward credits, while wrong guesses reduce
-                                                            the player’s score.
+                                                            the players score.
                                                         </p>
                                                     </section>
 
@@ -596,7 +595,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <!-- *wackamole Card -->
-                                    <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
+                                    <div class="card project-card shadow-sm icon-link-hover" id="wackamole" data-bs-toggle="modal"
                                         data-bs-target="#wackamoleModal">
                                         <img src="/img/w-a-m-logo.png" class="card-img-top rounded"
                                             alt="Wackamole Project">
@@ -624,7 +623,8 @@
 
                                         </div>
                                     </div>
-                                    <div class="card project-card shadow-sm card-hover" data-bs-toggle="modal"
+                                    <!-- *Web Catalog Card -->
+                                    <div class="card project-card shadow-sm card-hover" id="webcatalog" data-bs-toggle="modal"
                                         data-bs-target="#webcatalogModal">
                                         <img src="/img/webcat-logo.jpg" class="card-img-top rounded"
                                             alt="webcatalog Project">
