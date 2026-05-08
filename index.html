@@ -730,25 +730,27 @@
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Overview</h6>
                                                         <p class="text-muted">
-                                                            Higher Lower is a browser-based dice game where the player
-                                                            competes against the computer.
-                                                            Both sides roll two dice, and the player must predict
-                                                            whether their total will be higher or lower.
-                                                            Correct guesses reward credits, while wrong guesses reduce
-                                                            the players score.
+                                                            Whack-a-Mole is a fast-paced reaction game where players
+                                                            must click on tiles as different characters randomly appear
+                                                            on the grid.
+                                                            Each character has different point values, and the goal is
+                                                            to reach the highest score possible without dropping below
+                                                            zero.
+
                                                         </p>
                                                     </section>
 
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Features</h6>
                                                         <ul class="text-muted">
-                                                            <li>Player vs computer dice gameplay</li>
-                                                            <li>Higher or lower prediction system</li>
-                                                            <li>Dynamic credit / score tracking</li>
-                                                            <li>Gambling mechanic with adjustable credit value</li>
-                                                            <li>Random dice generation with visual Unicode dice</li>
-                                                            <li>Real-time win/lose feedback messages</li>
-                                                            <li>Player name input system</li>
+                                                            <li>Random spawning mole (Diglett) system</li>
+                                                            <li>Multiple enemy types with different scores</li>
+                                                            <li>Golem (+3 points) bonus tile</li>
+                                                            <li>Magikarp (-5 points) penalty tile</li>
+                                                            <li>Dynamic score tracking system</li>
+                                                            <li>Real-time message feedback on clicks</li>
+                                                            <li>Progressive field changes based on score</li>
+                                                            <li>Game over condition when score drops below 0</li>
                                                         </ul>
                                                     </section>
 
@@ -765,11 +767,11 @@
                                                         <h6 class="fw-bold text-uppercase text-muted">What I Learned
                                                         </h6>
                                                         <ul class="text-muted">
-                                                            <li>DOM manipulation and event handling</li>
-                                                            <li>Game state management</li>
-                                                            <li>Random number generation for game logic</li>
-                                                            <li>Updating UI dynamically based on player actions</li>
-                                                            <li>Structuring a complete browser game loop</li>
+                                                            <li>Working with intervals and recursive timeouts</li>
+                                                            <li>Event handling for interactive grid elements</li>
+                                                            <li>Game logic with multiple entity types</li>
+                                                            <li>Dynamic DOM manipulation using class toggling</li>
+                                                            <li>Score-based progression systems</li>
                                                         </ul>
                                                     </section>
 
@@ -777,11 +779,11 @@
                                                         <h6 class="fw-bold text-uppercase text-muted">Future
                                                             Improvements</h6>
                                                         <ul class="text-muted">
-                                                            <li>Better UI/UX redesign (modern game styling)</li>
-                                                            <li>Animations for dice rolling</li>
-                                                            <li>Sound effects for win/lose actions</li>
-                                                            <li>High score system using local storage</li>
-                                                            <li>Improved game balance and reset options</li>
+                                                            <li>Smoother animations for mole spawning</li>
+                                                            <li>Improved difficulty scaling system</li>
+                                                            <li>Sound effects for hits and misses</li>
+                                                            <li>Better grid generation system (more scalable)</li>
+                                                            <li>Leaderboard and high score saving</li>
                                                         </ul>
                                                     </section>
                                                 </div>
@@ -871,20 +873,26 @@
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Overview</h6>
                                                         <p class="text-muted">
-                                                            Higher or Lower is a browser-based comparison game where
-                                                            players guess which option has the higher value.
-                                                            The score increases with each correct guess and
-                                                            resets when the player loses.
+                                                            INFO is a dynamic webshop project where users can browse
+                                                            products, view product details,
+                                                            and leave reviews. The system is built using PHP and MySQL
+                                                            and includes a full admin dashboard
+                                                            for managing products and vendors.
                                                         </p>
                                                     </section>
 
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Features</h6>
                                                         <ul class="text-muted">
-                                                            <li>Dynamic score tracking</li>
-                                                            <li>Randomized comparison logic</li>
-                                                            <li>Instant win/lose feedback</li>
-                                                            <li>Responsive Bootstrap 5 layout</li>
+                                                            <li>Dynamic product listing from MySQL database</li>
+                                                            <li>Product detail pages with full information view</li>
+                                                            <li>Review system with user input and database storage</li>
+                                                            <li>Admin dashboard with CRUD functionality (Create, Read,
+                                                                Update, Delete)</li>
+                                                            <li>Vendor-based product filtering system</li>
+                                                            <li>Form validation for reviews and product input</li>
+                                                            <li>Bootstrap-based responsive UI</li>
+                                                            <li>Navigation system across multiple categories</li>
                                                         </ul>
                                                     </section>
 
@@ -893,8 +901,26 @@
                                                         <ul class="text-muted">
                                                             <li>HTML5</li>
                                                             <li>CSS3</li>
-                                                            <li>JavaScript (ES6)</li>
                                                             <li>Bootstrap 5</li>
+                                                            <li>JavaScript (basic interactions)</li>
+                                                            <li>PHP (PDO)</li>
+                                                            <li>MySQL</li>
+                                                        </ul>
+                                                    </section>
+
+                                                    <section class="mb-4">
+                                                        <h6 class="fw-bold text-uppercase text-muted">What I Learned
+                                                        </h6>
+                                                        <ul class="text-muted">
+                                                            <li>Building full CRUD systems with PHP and MySQL</li>
+                                                            <li>Working with prepared statements for secure database
+                                                                queries</li>
+                                                            <li>Structuring a webshop with product detail and review
+                                                                flow</li>
+                                                            <li>Handling form validation and user input securely</li>
+                                                            <li>Creating admin dashboards for content management</li>
+                                                            <li>Combining backend logic with Bootstrap frontend design
+                                                            </li>
                                                         </ul>
                                                     </section>
 
@@ -902,9 +928,14 @@
                                                         <h6 class="fw-bold text-uppercase text-muted">Future
                                                             Improvements</h6>
                                                         <ul class="text-muted">
-                                                            <li>Leaderboard system</li>
-                                                            <li>Animations & sound effects</li>
-                                                            <li>API-based dynamic data</li>
+                                                            <li>User authentication and login system (roles: admin/user)
+                                                            </li>
+                                                            <li>Improved security (CSRF protection & input sanitization)
+                                                            </li>
+                                                            <li>Search and filter functionality for products</li>
+                                                            <li>Better UI/UX design for admin dashboard</li>
+                                                            <li>Image upload system for products</li>
+                                                            <li>Shopping cart functionality</li>
                                                         </ul>
                                                     </section>
                                                 </div>
