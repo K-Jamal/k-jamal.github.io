@@ -366,7 +366,8 @@
                                     <!-- *Higher Lower Project Card -->
                                     <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
                                         data-bs-target="#higherLowerModal">
-                                        <img src="/img/hl-lgo.jpg" class="card-img-top rounded" alt="Higher Lower Project">
+                                        <img src="/img/hl-lgo.jpg" class="card-img-top rounded"
+                                            alt="Higher Lower Project">
 
                                         <div class="card-body p-4">
 
@@ -425,7 +426,8 @@
                                     <!-- *Luluhairz -->
                                     <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
                                         data-bs-target="#luluhairzModal">
-                                        <img src="/img/lulu-logo.jpg" class="card-img-top rounded" alt="Lulu Hairz Project">
+                                        <img src="/img/lulu-logo.jpg" class="card-img-top rounded"
+                                            alt="Lulu Hairz Project">
 
                                         <div class="card-body p-4">
 
@@ -452,7 +454,7 @@
                                     </div>
 
                                 </div>
-                                <!-- Modal -->
+                                <!-- Modal Higher Lower -->
                                 <div class="modal fade" id="higherLowerModal" tabindex="-1"
                                     aria-labelledby="higherLowerTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -519,25 +521,31 @@
                                                 </div>
 
                                                 <!-- README Content -->
+                                                <!-- README Content -->
                                                 <div class="p-4">
 
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Overview</h6>
                                                         <p class="text-muted">
-                                                            Higher or Lower is a browser-based comparison game where
-                                                            players guess which option has the higher value.
-                                                            The score increases with each correct guess and
-                                                            resets when the player loses.
+                                                            Higher Lower is a browser-based dice game where the player
+                                                            competes against the computer.
+                                                            Both sides roll two dice, and the player must predict
+                                                            whether their total will be higher or lower.
+                                                            Correct guesses reward credits, while wrong guesses reduce
+                                                            the players score.
                                                         </p>
                                                     </section>
 
                                                     <section class="mb-4">
                                                         <h6 class="fw-bold text-uppercase text-muted">Features</h6>
                                                         <ul class="text-muted">
-                                                            <li>Dynamic score tracking</li>
-                                                            <li>Randomized comparison logic</li>
-                                                            <li>Instant win/lose feedback</li>
-                                                            <li>Responsive Bootstrap 5 layout</li>
+                                                            <li>Player vs computer dice gameplay</li>
+                                                            <li>Higher or lower prediction system</li>
+                                                            <li>Dynamic credit / score tracking</li>
+                                                            <li>Gambling mechanic with adjustable credit value</li>
+                                                            <li>Random dice generation with visual Unicode dice</li>
+                                                            <li>Real-time win/lose feedback messages</li>
+                                                            <li>Player name input system</li>
                                                         </ul>
                                                     </section>
 
@@ -546,8 +554,19 @@
                                                         <ul class="text-muted">
                                                             <li>HTML5</li>
                                                             <li>CSS3</li>
-                                                            <li>JavaScript (ES6)</li>
-                                                            <li>Bootstrap 5</li>
+                                                            <li>JavaScript (Vanilla ES6)</li>
+                                                        </ul>
+                                                    </section>
+
+                                                    <section class="mb-4">
+                                                        <h6 class="fw-bold text-uppercase text-muted">What I Learned
+                                                        </h6>
+                                                        <ul class="text-muted">
+                                                            <li>DOM manipulation and event handling</li>
+                                                            <li>Game state management</li>
+                                                            <li>Random number generation for game logic</li>
+                                                            <li>Updating UI dynamically based on player actions</li>
+                                                            <li>Structuring a complete browser game loop</li>
                                                         </ul>
                                                     </section>
 
@@ -555,11 +574,14 @@
                                                         <h6 class="fw-bold text-uppercase text-muted">Future
                                                             Improvements</h6>
                                                         <ul class="text-muted">
-                                                            <li>Leaderboard system</li>
-                                                            <li>Animations & sound effects</li>
-                                                            <li>API-based dynamic data</li>
+                                                            <li>Better UI/UX redesign (modern game styling)</li>
+                                                            <li>Animations for dice rolling</li>
+                                                            <li>Sound effects for win/lose actions</li>
+                                                            <li>High score system using local storage</li>
+                                                            <li>Improved game balance and reset options</li>
                                                         </ul>
                                                     </section>
+
                                                 </div>
                                                 <div class="modal-footer border-0 d-flex justify-content-center">
                                                     <div class="mt-4 d-flex gap-2">
@@ -577,10 +599,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <!-- wackamole Card -->
+                                    <!-- *wackamole Card -->
                                     <div class="card project-card shadow-sm icon-link-hover" data-bs-toggle="modal"
                                         data-bs-target="#wackamoleModal">
-                                        <img src="/img/w-a-m-logo.png" class="card-img-top rounded" alt="Wackamole Project">
+                                        <img src="/img/w-a-m-logo.png" class="card-img-top rounded"
+                                            alt="Wackamole Project">
 
                                         <div class="card-body p-4">
 
@@ -635,7 +658,7 @@
                                     </div>
 
                                 </div>
-                                <!-- Modal -->
+                                <!-- Modal Wackamole -->
                                 <div class="modal fade" id="wackamoleModal" tabindex="-1"
                                     aria-labelledby="wackamoleTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
@@ -1005,8 +1028,8 @@
                                     </div>
                                 </div>
 
-<!-- luluhairzModal -->
-                                 <div class="modal fade" id="luluhairzModal" tabindex="-1"
+                                <!-- luluhairzModal -->
+                                <div class="modal fade" id="luluhairzModal" tabindex="-1"
                                     aria-labelledby="luluhairzModalTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
                                         <div class="modal-content rounded-4 border-0 shadow">
