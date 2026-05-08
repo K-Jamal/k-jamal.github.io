@@ -23,7 +23,7 @@
             <a class="navbar-brand" href="#">KRISH.J</a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"></button>
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
@@ -40,8 +40,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Higher-Lower</a>
-                            <a class="dropdown-item" href="#">Web-catalog</a>
+                            <a class="dropdown-item" href="#Higher-Lower">Higher-Lower</a>
+                            <a class="dropdown-item" href="#Web-catalog">Web-catalog</a>
                         </div>
                     </li>
                 </ul>
@@ -68,19 +68,16 @@
                     <div class="col-md-6">
                         <div class="p-5 m-5">
                             <div class="h2 fst-italic text-center mt-5">Krishna Jamal </div>
-
-                            <p class="writing-effect text-center fs-3">
-                                I am a <span class="typed"></span>
-                            </p>
-
-
-
+                            <div class="text-center fs-3">
+                                <p class="writing-effect">
+                                    I am a
+                                    <span class="typed"></span></p>
+                            </div>
                             <div class="text-center effect-container">
                                 <span class="hover-effect">Passionate,</span>
                                 <span class="hover-effect">Hardworking,</span>
                                 <span class="hover-effect">Dedicated</span> and
                                 <span class="hover-effect">Disciplined</span>
-
                                 are words hat describe me the best
                             </div>
                             <div class="home-links mt-3 text-center">
@@ -360,7 +357,6 @@
 
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-md-6">
                                     <!-- *Higher Lower Project Card -->
@@ -471,16 +467,16 @@
                                             <div class="modal-body p-0">
 
                                                 <!-- Project Carousel -->
-                                                <div id="projectCarousel" class="carousel slide"
+                                                <div id="higherLowerCarousel" class="carousel slide"
                                                     data-bs-ride="carousel">
 
                                                     <!-- Indicators -->
                                                     <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#higherLowerCarousel"
                                                             data-bs-slide-to="0" class="active"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#higherLowerCarousel"
                                                             data-bs-slide-to="1"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#higherLowerCarousel"
                                                             data-bs-slide-to="2"></button>
                                                     </div>
 
@@ -509,12 +505,12 @@
 
                                                     <!-- Controls -->
                                                     <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        data-bs-target="#higherLowerCarousel" data-bs-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                     </button>
 
                                                     <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        data-bs-target="#higherLowerCarousel" data-bs-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                     </button>
 
@@ -675,16 +671,16 @@
                                             <div class="modal-body p-0">
 
                                                 <!-- Project Carousel -->
-                                                <div id="projectCarousel" class="carousel slide"
+                                                <div id="wackamoleCarousel" class="carousel slide"
                                                     data-bs-ride="carousel">
 
                                                     <!-- Indicators -->
                                                     <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#wackamoleCarousel"
                                                             data-bs-slide-to="0" class="active"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#wackamoleCarousel"
                                                             data-bs-slide-to="1"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#wackamoleCarousel"
                                                             data-bs-slide-to="2"></button>
                                                     </div>
 
@@ -713,12 +709,12 @@
 
                                                     <!-- Controls -->
                                                     <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        data-bs-target="#wackamoleCarousel" data-bs-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                     </button>
 
                                                     <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        data-bs-target="#wackamoleCarousel" data-bs-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                     </button>
 
@@ -801,6 +797,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <!-- *Modal  Review your exp-->
                                 <div class="modal fade" id="reviewyourexperienceModal" tabindex="-1"
                                     aria-labelledby="reviewyourexperienceTitle" aria-hidden="true">
@@ -818,16 +815,16 @@
                                             <div class="modal-body p-0">
 
                                                 <!-- Project Carousel -->
-                                                <div id="projectCarousel" class="carousel slide"
+                                                <div id="reviewyourExperienceCarousel" class="carousel slide"
                                                     data-bs-ride="carousel">
 
                                                     <!-- Indicators -->
                                                     <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#reviewyourExperienceCarousel"
                                                             data-bs-slide-to="0" class="active"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#reviewyourExperienceCarousel"
                                                             data-bs-slide-to="1"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#reviewyourExperienceCarousel"
                                                             data-bs-slide-to="2"></button>
                                                     </div>
 
@@ -856,12 +853,12 @@
 
                                                     <!-- Controls -->
                                                     <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        data-bs-target="#wackamoleCarousel" data-bs-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                     </button>
 
                                                     <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        data-bs-target="#wackamoleCarousel" data-bs-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                     </button>
 
@@ -950,6 +947,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -970,16 +968,16 @@
                                             <div class="modal-body p-0">
 
                                                 <!-- Project Carousel -->
-                                                <div id="projectCarousel" class="carousel slide"
+                                                <div id="webcatalogCarousel" class="carousel slide"
                                                     data-bs-ride="carousel">
 
                                                     <!-- Indicators -->
                                                     <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#webcatalogCarousel"
                                                             data-bs-slide-to="0" class="active"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#webcatalogCarousel"
                                                             data-bs-slide-to="1"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#webcatalogCarousel"
                                                             data-bs-slide-to="2"></button>
                                                     </div>
 
@@ -1008,12 +1006,12 @@
 
                                                     <!-- Controls -->
                                                     <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        data-bs-target="#webcatalogCarousel" data-bs-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                     </button>
 
                                                     <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        data-bs-target="#webcatalogCarousel" data-bs-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                     </button>
 
@@ -1103,6 +1101,7 @@
                                     </div>
                                 </div>
 
+
                                 <!-- luluhairzModal -->
                                 <div class="modal fade" id="luluhairzModal" tabindex="-1"
                                     aria-labelledby="luluhairzModalTitle" aria-hidden="true">
@@ -1120,16 +1119,16 @@
                                             <div class="modal-body p-0">
 
                                                 <!-- Project Carousel -->
-                                                <div id="projectCarousel" class="carousel slide"
+                                                <div id="luluhairzCarousel" class="carousel slide"
                                                     data-bs-ride="carousel">
 
                                                     <!-- Indicators -->
                                                     <div class="carousel-indicators">
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#luluhairzCarousel"
                                                             data-bs-slide-to="0" class="active"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#luluhairzCarousel"
                                                             data-bs-slide-to="1"></button>
-                                                        <button type="button" data-bs-target="#projectCarousel"
+                                                        <button type="button" data-bs-target="#luluhairzCarousel"
                                                             data-bs-slide-to="2"></button>
                                                     </div>
 
@@ -1158,12 +1157,12 @@
 
                                                     <!-- Controls -->
                                                     <button class="carousel-control-prev" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="prev">
+                                                        data-bs-target="#luluhairzCarousel" data-bs-slide="prev">
                                                         <span class="carousel-control-prev-icon"></span>
                                                     </button>
 
                                                     <button class="carousel-control-next" type="button"
-                                                        data-bs-target="#projectCarousel" data-bs-slide="next">
+                                                        data-bs-target="#luluhairzCarousel" data-bs-slide="next">
                                                         <span class="carousel-control-next-icon"></span>
                                                     </button>
 
@@ -1310,8 +1309,6 @@
     </div>
 
     <footer class="footer">
-
-
         <div class="container-fluid bg-body-tertiary text-center">
             <div class="row">
                 <div class="col-md-12">
