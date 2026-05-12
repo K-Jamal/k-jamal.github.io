@@ -7,6 +7,14 @@
     overflow-x: hidden;
 }
 
+.hobbies-card:hover {
+    opacity: 0.75;
+    transition: 0.2s;
+}
+
+.hobbies-card:hover .hobbies-icon-container {
+    transform: scale(1.15);
+}
 /* .project-img:hover{
     background-color: orange;
 }
